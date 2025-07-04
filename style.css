@@ -15,14 +15,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-  padding: 25px 0px;
-  font-size: 20px;
+#perfil img {
+  padding-top: 40px;
+  width: 120px;
 }
 
-#perfil img {
-  width: 120px;
-  text-align: center;  
+#perfil p {
+  margin: 15px;
+  font-size: 20px;
 }
 
 #calculadora {
@@ -42,7 +42,7 @@ p {
   font-size: 25px;
   transition: 0.2s;
   cursor: pointer;
-  background-color: rgb(31,31,31);
+  background-color: rgb(31, 31, 31);
   border: none;
   color: #fff;
   border-radius: 10%;
@@ -50,4 +50,18 @@ p {
 
 #button:hover {
   background-color: black;
+}
+
+#resultado {
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 3px;
+  padding: 0px 7px;
+  align-items: center;
+  width: 207px;
+  height: 30px;
+  margin: 5px;
+  font-size: 25px;
+  color: black;
+  text-align: right;
 }
