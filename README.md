@@ -20,7 +20,7 @@ Calculadora produzida para estudo de programação Front-End
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
-- JavaScript (em construção)
+- JavaScript
 - Git e Github
 
 ## 💻 Projeto
