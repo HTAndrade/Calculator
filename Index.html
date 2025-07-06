@@ -21,10 +21,10 @@
         <p id="resultado"></p>
         <table>
           <tr>
-            <td><button id="button">C</button></td>
-            <td><button id="button"><</button></td>
-            <td><button id="button">/</button></td>
-            <td><button id="button">X</button></td>
+            <td><button id="button" onclick="clean()">C</button></td>
+            <td><button id="button" onclick="back()"><</button></td>
+            <td><button id="button" onclick="insert('/')">/</button></td>
+            <td><button id="button" onclick="insert('*')">X</button></td>
           </tr>
           <tr>
             <td><button id="button" onclick="insert('7')">7</button></td>
@@ -43,14 +43,14 @@
             <td><button id="button" onclick="insert('2')">2</button></td>
             <td><button id="button" onclick="insert('3')">3</button></td>
             <td rowspan="2">
-              <button id="button" style="height: 106px">=</button>
+              <button id="button" style="height: 106px" onclick="calcular()">=</button>
             </td>
           </tr>
           <tr>
             <td colspan="2">
-              <button id="button" style="width: 106px">0</button>
+              <button id="button" style="width: 106px" onclick="insert('0')">0</button>
             </td>
-            <td><button id="button">.</button></td>
+            <td><button id="button" onclick="insert('.')">.</button></td>
           </tr>
         </table>
       </div>
