@@ -18,7 +18,7 @@
       </div>
       <div id="calculadora">
         <h1>Calculadora</h1>
-        <p id="resultado">123456789</p>
+        <p id="resultado"></p>
         <table>
           <tr>
             <td><button id="button">C</button></td>
@@ -27,21 +27,21 @@
             <td><button id="button">X</button></td>
           </tr>
           <tr>
-            <td><button id="button">7</button></td>
-            <td><button id="button">8</button></td>
-            <td><button id="button">9</button></td>
-            <td><button id="button">-</button></td>
+            <td><button id="button" onclick="insert('7')">7</button></td>
+            <td><button id="button" onclick="insert('8')">8</button></td>
+            <td><button id="button" onclick="insert('9')">9</button></td>
+            <td><button id="button" onclick="insert('-')">-</button></td>
           </tr>
           <tr>
-            <td><button id="button">4</button></td>
-            <td><button id="button">5</button></td>
-            <td><button id="button">6</button></td>
-            <td><button id="button">+</button></td>
+            <td><button id="button" onclick="insert('4')">4</button></td>
+            <td><button id="button" onclick="insert('5')">5</button></td>
+            <td><button id="button" onclick="insert('6')">6</button></td>
+            <td><button id="button" onclick="insert('+')">+</button></td>
           </tr>
           <tr>
-            <td><button id="button">1</button></td>
-            <td><button id="button">2</button></td>
-            <td><button id="button">3</button></td>
+            <td><button id="button" onclick="insert('1')">1</button></td>
+            <td><button id="button" onclick="insert('2')">2</button></td>
+            <td><button id="button" onclick="insert('3')">3</button></td>
             <td rowspan="2">
               <button id="button" style="height: 106px">=</button>
             </td>
@@ -55,5 +55,6 @@
         </table>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
