@@ -1,7 +1,7 @@
 <h1 align="center"> Calculator 1.0 </h1>
 
 <p align="center">
-Calculadora produzida para estudo de programação Front-End
+Calculadora produzida para estudo de programação Front-End.
 </p>
 
 <p align="center">
